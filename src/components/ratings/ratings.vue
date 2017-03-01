@@ -1,15 +1,11 @@
 <template>
-  <div class="header">
-    我是header
-  </div>
+  <p>======ratings=========</p>
 </template>
 
 <script type="text/ecmascript-6">
-  export default{
-    name: 'header'
-  };
+  export default {};
 </script>
 
 <style lang="stylus" rel="stylesheet/stylus">
-  @import "header.styl";
+
 </style>

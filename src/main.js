@@ -11,5 +11,9 @@ new Vue({
   el: '#app',
   router,
   template: '<App/>',
-  components: { App }
+  components: {App}
 });
+router.push('/goods');
+// router.push({path: '/ratings', query: {userId: 123}});
+// router.push({name: 'goods', query: {userId: 123}});
+
