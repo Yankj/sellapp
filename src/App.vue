@@ -9,13 +9,13 @@
 </template>
 
 <script>
-  import header from './components/header/header.vue'
+  import header from './components/header/header.vue';
   export default {
     name: 'app',
     components: {
       'v-header': header
     }
-  }
+  };
 </script>
 
 <style lang="stylus" rel="stylesheet/stylus">
