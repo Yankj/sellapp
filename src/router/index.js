@@ -25,6 +25,7 @@ const routes = [
 ];
 
 const router = new Router({
-  routes
+  routes,
+  linkActiveClass: 'active'
 });
 export default router;
